@@ -25,7 +25,7 @@ public class Concurso {
 		System.out.println(fechaActual.toString());
 		System.out.println(fechaInicialDeInscripcion.toString());
 		System.out.println(fechaFinalDeInscripcion.toString());
-		if (fechaEnRangoDeInscripcion (fechaActual)) {
+		if (fechaEstaEnRangoDeInscripcion (fechaActual)) {
 			this.listaDeParticipantesInscriptos.add(participante);
 		}
 	}
@@ -35,9 +35,9 @@ public class Concurso {
 				.anyMatch(otroParticipante -> unParticipante.equals(otroParticipante));
 	}
 	
-	private boolean fechaEnRangoDeInscripcion(LocalDateTime FechaEvaluada) {
-		if (FechaEvaluada.isEqual(this.fechaInicialDeInscripcion) || FechaEvaluada.isAfter(this.fechaInicialDeInscripcion)
-				&& FechaEvaluada.isBefore(this.fechaFinalDeInscripcion)) {
+	private boolean fechaEstaEnRangoDeInscripcion(LocalDateTime FechaEvaluada) {
+		if (FechaEvaluada.isEqual(this.fechaInicialDeInscripcion) || (FechaEvaluada.isAfter(this.fechaInicialDeInscripcion)
+				&& FechaEvaluada.isBefore(this.fechaFinalDeInscripcion))) {
 			return true;
 		}
 		return false;
