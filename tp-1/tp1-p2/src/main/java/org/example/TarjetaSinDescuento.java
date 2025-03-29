@@ -2,9 +2,9 @@ package org.example;
 
 import java.time.LocalDateTime;
 
-public class TargetaSinDescuento extends TargetaDeCredito {
+public class TarjetaSinDescuento extends TarjetaDeCredito {
 
-	public TargetaSinDescuento(String numero, String titular, LocalDateTime fechaDeExpiracion) throws RuntimeException {
+	public TarjetaSinDescuento(String numero, String titular, LocalDateTime fechaDeExpiracion) throws RuntimeException {
 		super(numero, titular, fechaDeExpiracion);
 	}
 

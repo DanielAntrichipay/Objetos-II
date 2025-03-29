@@ -2,7 +2,7 @@ package org.example;
 
 import java.time.LocalDateTime;
 
-public abstract class TargetaDeCredito {
+public abstract class TarjetaDeCredito {
 	public static final String NUMERO_VACIO = "El número no puede ser vacío";
 	public static final String NUMERO_TARJETA_NO_VALIDO = "El número debe tener 16 dígitos";
 	public static final String TITULAR_VACIO = "El titular no puede ser vacío";
@@ -11,7 +11,7 @@ public abstract class TargetaDeCredito {
 	private String titular;
 	private LocalDateTime fechaDeExpiracion;
 
-	public TargetaDeCredito(String numero, String titular, LocalDateTime fechaDeExpiracion)
+	public TarjetaDeCredito(String numero, String titular, LocalDateTime fechaDeExpiracion)
 			throws RuntimeException {
 		this.chequearNumero(numero);
 		this.chequearTitular(titular);

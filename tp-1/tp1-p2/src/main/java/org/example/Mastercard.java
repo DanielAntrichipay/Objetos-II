@@ -2,7 +2,7 @@ package org.example;
 
 import java.time.LocalDateTime;
 
-public class Mastercard extends TargetaDeCredito {
+public class Mastercard extends TarjetaDeCredito {
 	private float descuento;
 
 	public Mastercard(String numero, String titular, LocalDateTime fechaDeExpiracion) throws RuntimeException {

@@ -12,15 +12,15 @@ public class MesaTest {
 	@Test
 	public void calculoDelCostoConVisa() {
 		try {
-			var targetaVisa = new Visa("1234567890123456", "Pepito", LocalDateTime.of(2025, 1, 1, 00, 00));
+			var tarjetaVisa = new Visa("1234567890123456", "Pepito", LocalDateTime.of(2025, 1, 1, 00, 00));
 			int primerBebida = 0;
 			int primerPlato = 0;
 			var mesa = instanciarMesa();
 			var menu = mesa.consultarMenu();
 			mesa.agregarBebidaAlPedido(menu.obtenerListaDeBebidas().get(primerBebida));
 			mesa.agregarPlatoAlPedido(menu.obtenerListaDePlatos().get(primerPlato));
-			System.out.println(mesa.consultarCostoTotal(targetaVisa));
-			assertEquals(297.0, mesa.consultarCostoTotal(targetaVisa));
+			System.out.println(mesa.consultarCostoTotal(tarjetaVisa));
+			assertEquals(297.0, mesa.consultarCostoTotal(tarjetaVisa));
 		} catch (RuntimeException e) {
 			System.out.println(e.getMessage());
 		}
@@ -29,15 +29,15 @@ public class MesaTest {
 	@Test
 	public void calculoDelCostoConMastercard() {
 		try {
-			var targetaMastercard = new Mastercard("1234567890123456", "Pepito", LocalDateTime.of(2025, 1, 1, 00, 00));
+			var tarjetaMastercard = new Mastercard("1234567890123456", "Pepito", LocalDateTime.of(2025, 1, 1, 00, 00));
 			int primerBebida = 0;
 			int primerPlato = 0;
 			var mesa = instanciarMesa();
 			var menu = mesa.consultarMenu();
 			mesa.agregarBebidaAlPedido(menu.obtenerListaDeBebidas().get(primerBebida));
 			mesa.agregarPlatoAlPedido(menu.obtenerListaDePlatos().get(primerPlato));
-			System.out.println(mesa.consultarCostoTotal(targetaMastercard));
-			assertEquals(296.0, mesa.consultarCostoTotal(targetaMastercard));
+			System.out.println(mesa.consultarCostoTotal(tarjetaMastercard));
+			assertEquals(296.0, mesa.consultarCostoTotal(tarjetaMastercard));
 		} catch (RuntimeException e) {
 			System.out.println(e.getMessage());
 		}
@@ -46,7 +46,7 @@ public class MesaTest {
 	@Test
 	public void calculoDelCostoConComarcaPlus() {
 		try {
-			var targetaComarcaPlus = new ComarcaPlus("1234567890123456", "Pepito",
+			var tarjetaComarcaPlus = new ComarcaPlus("1234567890123456", "Pepito",
 					LocalDateTime.of(2025, 1, 1, 00, 00));
 			int primerBebida = 0;
 			int primerPlato = 0;
@@ -54,8 +54,8 @@ public class MesaTest {
 			var menu = mesa.consultarMenu();
 			mesa.agregarBebidaAlPedido(menu.obtenerListaDeBebidas().get(primerBebida));
 			mesa.agregarPlatoAlPedido(menu.obtenerListaDePlatos().get(primerPlato));
-			System.out.println(mesa.consultarCostoTotal(targetaComarcaPlus));
-			assertEquals(294.0, mesa.consultarCostoTotal(targetaComarcaPlus));
+			System.out.println(mesa.consultarCostoTotal(tarjetaComarcaPlus));
+			assertEquals(294.0, mesa.consultarCostoTotal(tarjetaComarcaPlus));
 		} catch (RuntimeException e) {
 			System.out.println(e.getMessage());
 		}
@@ -64,7 +64,7 @@ public class MesaTest {
 	@Test
 	public void calculoDelCostoConsTargetaViedma() {
 		try {
-			var TargetaViedma = new TargetaSinDescuento("1234567890123456", "Pepito",
+			var tarjetaViedma = new TarjetaSinDescuento("1234567890123456", "Pepito",
 					LocalDateTime.of(2025, 1, 1, 00, 00));
 			int primerBebida = 0;
 			int primerPlato = 0;
@@ -72,8 +72,8 @@ public class MesaTest {
 			var menu = mesa.consultarMenu();
 			mesa.agregarBebidaAlPedido(menu.obtenerListaDeBebidas().get(primerBebida));
 			mesa.agregarPlatoAlPedido(menu.obtenerListaDePlatos().get(primerPlato));
-			System.out.println(mesa.consultarCostoTotal(TargetaViedma));
-			assertEquals(300.0, mesa.consultarCostoTotal(TargetaViedma));
+			System.out.println(mesa.consultarCostoTotal(tarjetaViedma));
+			assertEquals(300.0, mesa.consultarCostoTotal(tarjetaViedma));
 		} catch (RuntimeException e) {
 			System.out.println(e.getMessage());
 		}

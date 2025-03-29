@@ -33,7 +33,7 @@ public class Pedido {
 		return this.estadoDelPago;
 	}
 
-	public float calcularCostoTotal(TargetaDeCredito unaTargeta) {
-		return unaTargeta.aplicarDescuento(this.precioTotalBebidas, this.precioTotalPlatos);
+	public float calcularCostoTotal(TarjetaDeCredito unaTarjeta) {
+		return unaTarjeta.aplicarDescuento(this.precioTotalBebidas, this.precioTotalPlatos);
 	}
 }

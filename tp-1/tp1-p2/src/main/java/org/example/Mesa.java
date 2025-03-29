@@ -33,8 +33,8 @@ public class Mesa {
 		return this.pedido;
 	}
 
-	public float consultarCostoTotal(TargetaDeCredito unaTargeta) {
-		return pedido.calcularCostoTotal(unaTargeta);
+	public float consultarCostoTotal(TarjetaDeCredito unaTarjeta) {
+		return pedido.calcularCostoTotal(unaTarjeta);
 	}
 }
 /*
