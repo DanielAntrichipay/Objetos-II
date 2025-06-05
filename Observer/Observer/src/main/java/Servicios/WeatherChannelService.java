@@ -22,7 +22,7 @@ public class WeatherChannelService implements ClimaOnline {
     @Override
     public Optional<Clima> temperatura() {
 //        int temp = new Random().nextInt(100);
-        String apiKey = "acb4891961c6ece1543abd7933e9baad";
+        String apiKey = "";
         String urlString = "https://api.openweathermap.org/data/2.5/weather?q=Viedma,Argentina&units=metric&APPID=" + apiKey;
         Clima clima;
         try {
