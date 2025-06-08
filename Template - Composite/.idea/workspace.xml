@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e9efe1ed-e611-4846-9f7c-d18926b0949b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P1/Contrato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P1/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P1/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P1/EmpleadoRegular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P1/Gerente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P1/LiderDeProyecto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P1/MandoMedio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Template - Composite/src/test/java/DirectorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Modelo/AlertaDeTemperatura.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Modelo/AlertaDeTemperatura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Modelo/ClimaOnline.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Modelo/ClimaOnline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Modelo/Double.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Modelo/Double.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Modelo/Medidor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Modelo/Medidor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Modelo/NotificadorClimatico.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Modelo/NotificadorClimatico.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Modelo/ObservadorDelClima.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Modelo/ObservadorDelClima.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Persistencia/RegistroDeTemperaturas.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Persistencia/RegistroDeTemperaturas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Servicios/WeatherChannelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Servicios/WeatherChannelService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patron proxy/Patron Proxi/untitled/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patron proxy/Patron Proxi/untitled/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patron proxy/Patron Proxi/untitled/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patron proxy/Patron Proxi/untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patron proxy/Patron Proxi/untitled/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patron proxy/Patron Proxi/untitled/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patron proxy/Patron Proxi/untitled/recursos/Importante.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patron proxy/Patron Proxi/untitled/src/main/java/org/example/Access.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patron proxy/Patron Proxi/untitled/src/main/java/org/example/FileAccess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patron proxy/Patron Proxi/untitled/src/main/java/org/example/FileAccessProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patron proxy/Patron Proxi/untitled/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patron proxy/Patron Proxi/untitled/src/main/java/org/example/Permiso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patron proxy/Patron Proxi/untitled/src/main/java/org/example/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patron proxy/Patron Proxy/untitled/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Patron proxy/Patron Proxy/untitled/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patron proxy/Patron Proxy/untitled/src/main/java/org/p1/ConnectionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Patron proxy/Patron Proxy/untitled/src/main/java/org/p1/ConnectionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patron proxy/Patron Proxy/untitled/src/main/java/org/p1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Patron proxy/Patron Proxy/untitled/src/main/java/org/p1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patron proxy/Patron Proxy/untitled/src/main/java/org/p1/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Patron proxy/Patron Proxy/untitled/src/main/java/org/p1/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patron proxy/Patron Proxy/untitled/src/main/java/org/p1/PersonaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Patron proxy/Patron Proxy/untitled/src/main/java/org/p1/PersonaDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Patron proxy/Patron Proxy/untitled/src/main/java/org/p1/Telefono.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Patron proxy/Patron Proxy/untitled/src/main/java/org/p1/Telefono.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template - Composite/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Template - Composite/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template - Composite/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp-10/-/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp-10/-/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp-10/-/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp-10/-/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp-10/-/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp-10/-/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp-10/-/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp-3/-/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp-3/-/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp-3/-/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp-3/-/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp-3/-/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp-3/-/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp-3/-/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp-8/-/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp-8/-/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp-8/-/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp-8/-/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp-8/-/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp-8/-/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp-8/-/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp-9/-/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp-9/-/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp-9/-/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp-9/-/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp-9/-/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp-9/-/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tp-9/-/src/main/java/org/example/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DanielAntrichipay&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DanielAntrichipay/Objetos-II.git&quot;,
+    &quot;accountId&quot;: &quot;3fa8ac67-6723-4810-b27d-91e56aee8992&quot;
+  }
+}</component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="DirectorTest" />
+      <run-configuration type="JUnit" name="DirectorTest" />
+    </enabled-run-configurations>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2yExbg53FGsxfP2cDycDLacc775" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.DirectorTest.executor": "Run",
+    "JUnit.DirectorTest.testCalcularMontoTotalSalarialConArbolIncompleto.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/danie/Repos/Objetos-II/Template - Composite/Template - Composite/src"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\danie\Repos\Objetos-II\Template - Composite\Template - Composite\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="DirectorTest.testCalcularMontoTotalSalarialConArbolIncompleto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DirectorTest" />
+      <option name="METHOD_NAME" value="testCalcularMontoTotalSalarialConArbolIncompleto" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DirectorTest.testCalcularMontoTotalSalarialConArbolIncompleto" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e9efe1ed-e611-4846-9f7c-d18926b0949b" name="Changes" comment="" />
+      <created>1749413608676</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749413608676</updated>
+    </task>
+    <servers />
+  </component>
+</project>
