@@ -5,17 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9efe1ed-e611-4846-9f7c-d18926b0949b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Template - Composite/Diagrmas/Diagrama de Clases.drawio.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P2/HistoriaDeUsuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P2/ItemDeProyecto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P2/ProyectoDeScrum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P2/Spike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P2/Tarea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P4/Calculador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P4/CalculadorJubilado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P4/CalculadorNoJubilado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P4/LogTransaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Template - Composite/src/test/java/P4/TestPromocionDelVA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Modelo/AlertaDeTemperatura.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Modelo/AlertaDeTemperatura.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Modelo/ClimaOnline.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Modelo/ClimaOnline.java" afterDir="false" />
@@ -44,7 +33,7 @@
       <change beforePath="$PROJECT_DIR$/../Patron proxy/Patron Proxy/untitled/src/main/java/org/p1/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Patron proxy/Patron Proxy/untitled/src/main/java/org/p1/Persona.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Patron proxy/Patron Proxy/untitled/src/main/java/org/p1/PersonaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Patron proxy/Patron Proxy/untitled/src/main/java/org/p1/PersonaDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Patron proxy/Patron Proxy/untitled/src/main/java/org/p1/Telefono.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Patron proxy/Patron Proxy/untitled/src/main/java/org/p1/Telefono.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Template - Composite/Diagrmas/Diagrama de Clases.drawio.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../tp-10/-/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../tp-10/-/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../tp-10/-/.idea/encodings.xml" beforeDir="false" />
@@ -116,7 +105,7 @@
     "Application.Main.executor": "Run",
     "JUnit.DirectorTest.executor": "Run",
     "JUnit.DirectorTest.testCalcularMontoTotalSalarialConArbolIncompleto.executor": "Run",
-    "JUnit.TestPromocionDelVA.executor": "Debug",
+    "JUnit.TestPromocionDelVA.executor": "Run",
     "JUnit.TestPromocionDelVA.testCalculadorNoJubilado.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -203,20 +192,5 @@
       <updated>1749413608676</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Template - Composite/src/test/java/P4/TestPromocionDelVA.java</url>
-          <line>11</line>
-          <properties class="P4.TestPromocionDelVA" method="testCalculadorJubilado">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
