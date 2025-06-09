@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9efe1ed-e611-4846-9f7c-d18926b0949b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P5/Remera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P5/RemeraInternacional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P5/RemeraNacional.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Template - Composite/src/test/java/P5/TestPrecioVentaDeRemeras.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Modelo/AlertaDeTemperatura.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Modelo/AlertaDeTemperatura.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Modelo/ClimaOnline.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Modelo/ClimaOnline.java" afterDir="false" />
@@ -33,7 +37,7 @@
       <change beforePath="$PROJECT_DIR$/../Patron proxy/Patron Proxy/untitled/src/main/java/org/p1/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Patron proxy/Patron Proxy/untitled/src/main/java/org/p1/Persona.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Patron proxy/Patron Proxy/untitled/src/main/java/org/p1/PersonaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Patron proxy/Patron Proxy/untitled/src/main/java/org/p1/PersonaDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Patron proxy/Patron Proxy/untitled/src/main/java/org/p1/Telefono.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Patron proxy/Patron Proxy/untitled/src/main/java/org/p1/Telefono.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template - Composite/Diagrmas/Diagrama de Clases.drawio.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tp-10/-/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../tp-10/-/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../tp-10/-/.idea/encodings.xml" beforeDir="false" />
