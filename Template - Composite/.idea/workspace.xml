@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e9efe1ed-e611-4846-9f7c-d18926b0949b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P1/Contrato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P1/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P1/Empleado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P1/EmpleadoRegular.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P1/Gerente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P1/LiderDeProyecto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P1/MandoMedio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Template - Composite/src/test/java/DirectorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Template - Composite/Diagrmas/Diagrama de Clases.drawio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P2/HistoriaDeUsuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P2/ItemDeProyecto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P2/ProyectoDeScrum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P2/Spike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P2/Tarea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P4/Calculador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P4/CalculadorJubilado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P4/CalculadorNoJubilado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Template - Composite/src/main/java/P4/LogTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Template - Composite/src/test/java/P4/TestPromocionDelVA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Modelo/AlertaDeTemperatura.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Modelo/AlertaDeTemperatura.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Modelo/ClimaOnline.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Observer/Observer/src/main/java/Modelo/ClimaOnline.java" afterDir="false" />
@@ -45,9 +44,7 @@
       <change beforePath="$PROJECT_DIR$/../Patron proxy/Patron Proxy/untitled/src/main/java/org/p1/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Patron proxy/Patron Proxy/untitled/src/main/java/org/p1/Persona.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Patron proxy/Patron Proxy/untitled/src/main/java/org/p1/PersonaDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Patron proxy/Patron Proxy/untitled/src/main/java/org/p1/PersonaDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Patron proxy/Patron Proxy/untitled/src/main/java/org/p1/Telefono.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Patron proxy/Patron Proxy/untitled/src/main/java/org/p1/Telefono.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template - Composite/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Template - Composite/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Template - Composite/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../tp-10/-/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../tp-10/-/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../tp-10/-/.idea/encodings.xml" beforeDir="false" />
@@ -105,12 +102,6 @@
     &quot;accountId&quot;: &quot;3fa8ac67-6723-4810-b27d-91e56aee8992&quot;
   }
 }</component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="JUnit" name="DirectorTest" />
-      <run-configuration type="JUnit" name="DirectorTest" />
-    </enabled-run-configurations>
-  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 1
@@ -125,6 +116,8 @@
     "Application.Main.executor": "Run",
     "JUnit.DirectorTest.executor": "Run",
     "JUnit.DirectorTest.testCalcularMontoTotalSalarialConArbolIncompleto.executor": "Run",
+    "JUnit.TestPromocionDelVA.executor": "Debug",
+    "JUnit.TestPromocionDelVA.testCalculadorNoJubilado.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -135,16 +128,59 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="P4" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\danie\Repos\Objetos-II\Template - Composite\Template - Composite\src" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danie\Repos\Objetos-II\Template - Composite\Template - Composite\Diagrmas" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="P1" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="P4" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TestPromocionDelVA">
     <configuration name="DirectorTest.testCalcularMontoTotalSalarialConArbolIncompleto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DirectorTest" />
+      <option name="PACKAGE_NAME" value="P1" />
+      <option name="MAIN_CLASS_NAME" value="P1.DirectorTest" />
       <option name="METHOD_NAME" value="testCalcularMontoTotalSalarialConArbolIncompleto" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPromocionDelVA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="P4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="P4" />
+      <option name="MAIN_CLASS_NAME" value="P4.TestPromocionDelVA" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPromocionDelVA.testCalculadorNoJubilado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="P4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="P4" />
+      <option name="MAIN_CLASS_NAME" value="P4.TestPromocionDelVA" />
+      <option name="METHOD_NAME" value="testCalculadorNoJubilado" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -152,6 +188,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestPromocionDelVA" />
+        <item itemvalue="JUnit.TestPromocionDelVA.testCalculadorNoJubilado" />
         <item itemvalue="JUnit.DirectorTest.testCalcularMontoTotalSalarialConArbolIncompleto" />
       </list>
     </recent_temporary>
@@ -165,5 +203,20 @@
       <updated>1749413608676</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/Template - Composite/src/test/java/P4/TestPromocionDelVA.java</url>
+          <line>11</line>
+          <properties class="P4.TestPromocionDelVA" method="testCalculadorJubilado">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
