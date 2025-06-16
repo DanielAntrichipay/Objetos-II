@@ -1,51 +1,36 @@
 package oop2.tp3.ejercicio3;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 import java.util.List;
 
-enum TipoDeGasto {
-    CENA, DESAYUNO, ALQUILER_AUTO
-}
-
-class Gasto {
-    TipoDeGasto tipoGasto;
-    int monto;
-}
-
 public class ReporteDeGastos {
-    public void imprimir(List<Gasto> gastos) {
-        int total = 0;
-        int gastosDeComida = 0;
+    private List<Gasto> listaDeGastosAlimentarios = new ArrayList<>();
+    private List<Gasto> listaDeGasrosComunes = new ArrayList<>();
+    private int total;
+    private int gastosDeComida = 0;
 
-        System.out.println("Expenses " + LocalDate.now());
+    public void agregarGatoDeComida (Gasto gastoDeComida){
+        this.listaDeGastosAlimentarios.add(gastoDeComida);
+    }
 
-        for (Gasto gasto : gastos) {
-            if (gasto.tipoGasto == TipoDeGasto.CENA || gasto.tipoGasto == TipoDeGasto.DESAYUNO) {
-                gastosDeComida += gasto.monto;
-            }
+    public void agregarGastoComun (Gasto gastoComun){
+        this.listaDeGasrosComunes.add(gastoComun);
+    }
 
-            String nombreGasto = "";
-            switch (gasto.tipoGasto) {
-                case CENA:
-                    nombreGasto = "Cena";
-                    break;
-                case DESAYUNO:
-                    nombreGasto = "Desayuno";
-                    break;
-                case ALQUILER_AUTO:
-                    nombreGasto = "Alquiler de Autos";
-                    break;
-            }
+    public String obtenerReporte() {
+        String reporte = "Expenses " + LocalDate.now() + System.lineSeparator();
 
-            String marcaExcesoComidas = gasto.tipoGasto == TipoDeGasto.CENA && gasto.monto > 5000
-                    || gasto.tipoGasto == TipoDeGasto.DESAYUNO && gasto.monto > 1000 ? "X" : " ";
-
-            System.out.println(nombreGasto + "\t" + gasto.monto + "\t" + marcaExcesoComidas);
-
-            total += gasto.monto;
+        for (Gasto gasto : listaDeGastosAlimentarios) {
+            reporte = reporte + "" + gasto.obtenerGastoFormateado();
+            gastosDeComida += gasto.consultarMonto();
+        }
+        for (Gasto gasto : listaDeGasrosComunes){
+            reporte = reporte + "" + gasto.obtenerGastoFormateado();
+            total += gasto.consultarMonto();
         }
 
-        System.out.println("Gastos de comida: " + gastosDeComida);
-        System.out.println("Total de gastos: " + total);
+        total += gastosDeComida;
+        return reporte + System.lineSeparator() + System.lineSeparator() + "Gastos de comida: " + gastosDeComida + System.lineSeparator() + "Total de gastos: " + total;
     }
 }
