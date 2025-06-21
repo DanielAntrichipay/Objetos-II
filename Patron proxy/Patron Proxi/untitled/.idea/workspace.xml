@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7122bbab-8114-4be4-a0c8-5bc29ea03431" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/mem.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/mem.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/mem.script" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/refactoring/automatizados/extractmethod/ExtractMethodPlusParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/refactoring/automatizados/funcionalparameter/Concurso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/refactoring/automatizados/funcionalparameter/Concursos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/refactoring/automatizados/funcionalparameter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/refactoring/automatizados/movemethod/Bla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/refactoring/automatizados/movemethod/Filtro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/refactoring/automatizados/movemethod/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/refactoring/automatizados/parameters/Parameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/refactoring/automatizados/simples/SimpleRefactorings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/refactoring/collecting/ejemplo1/Bebida.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/refactoring/collecting/ejemplo1/ItemMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/refactoring/collecting/ejemplo1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/refactoring/collecting/ejemplo1/Pedido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/refactoring/collecting/ejemplo1/Plato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/refactoring/collecting/ejemplo2/Circulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/refactoring/collecting/ejemplo2/Figura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/refactoring/collecting/ejemplo2/Figuras.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/refactoring/collecting/ejemplo2/Hexagono.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/refactoring/collecting/ejemplo2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/refactoring/collecting/ejemplo2/Rectangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/refactoring/extractmethod/Viaje.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/refactoring/ifs/Concurso.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/refactoring/ifs/Dni.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/refactoring/ifs/Viaje.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/refactoring/numerosmagicos/Viaje.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/refactoring/parametros/entrada/Disco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/refactoring/parametros/salida/Disco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/refactoring/parametros/salida/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/tp3/ejercicio1/Alquiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/tp3/ejercicio1/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/tp3/ejercicio1/CopiaLibro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/tp3/ejercicio1/Libro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/tp3/ejercicio1/LibroInfantil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/tp3/ejercicio1/LibroRecienLanzado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/tp3/ejercicio1/LibroRegular.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/tp3/ejercicio1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/tp3/ejercicio2/Recaudacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/tp3/ejercicio3/EjemploDeUsoDelReporte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/tp3/ejercicio3/ReporteDeGastos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/tp3/ejercicio4/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/tp3/ejercicio4/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/tp3/ejercicio4/PersonaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/tp3/ejercicio4/SetUpDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/tp3/ejercicio5/Actuacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/tp3/ejercicio5/Calculador.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/tp3/ejercicio5/Evento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/tp3/ejercicio5/Factura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/java/oop2/tp3/ejercicio5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/main/resources/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/test/java/oop2/tp3/Ejercicio1/TestAlquiler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/test/java/oop2/tp3/ejercicio2/RecaudacionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../tp-3/oop2-refactoring-main/src/test/java/oop2/tp3/ejercicio5/CalculadorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tp-3/-/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tp-3/-/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tp-3/-/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tp-3/-/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tp-3/-/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tp-3/-/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tp-3/-/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tp-8/-/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tp-8/-/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tp-8/-/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tp-8/-/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tp-8/-/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tp-8/-/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../tp-8/-/src/main/java/org/example/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DanielAntrichipay&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DanielAntrichipay/Objetos-II.git&quot;,
+    &quot;accountId&quot;: &quot;3fa8ac67-6723-4810-b27d-91e56aee8992&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2xxvxTYrJ1I6WsW7bcXDe2Bl2Ca" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "onboarding.tips.debug.path": "C:/Users/danie/Repos/Objetos-II/Patron proxy/Patron Proxi/untitled/src/main/java/org/example/Main.java"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\danie\Repos\Objetos-II\Patron proxy\Patron Proxi\untitled\recursos" />
+    </key>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7122bbab-8114-4be4-a0c8-5bc29ea03431" name="Changes" comment="" />
+      <created>1748892788154</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748892788154</updated>
+    </task>
+    <servers />
+  </component>
+</project>

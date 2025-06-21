@@ -1,12 +1,12 @@
-package org.p1;
+package ejercicio3.Persistencia;
+
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class ConnectionManager {
-
-    protected static String DB = "proxy_p1";
+    protected static String DB = "radio_competition";
     protected static String user = "root";
     protected static String pass = "";
     protected static Connection conn = null;
@@ -17,8 +17,8 @@ public class ConnectionManager {
         try {
             conn = DriverManager.getConnection(URL_DB + DB, user, pass);
         } catch (SQLException sqlEx) {
-            throw new RuntimeException("No se ha podido conectar a " + URL_DB + DB + ". " + sqlEx.getMessage());
-
+            System.out.println("No se ha podido conectar a " + URL_DB + DB + ". " + sqlEx.getMessage());
+            System.out.println("Error al cargar el driver");
         }
     }
 
@@ -28,7 +28,7 @@ public class ConnectionManager {
                 conn.close();
                 conn = null;
             } catch (SQLException e) {
-                throw new RuntimeException("Error al cerrar la conexión con la base de datos" + e.getMessage());
+                e.printStackTrace();
             }
         }
     }
@@ -49,3 +49,4 @@ public class ConnectionManager {
     }
 
 }
+
