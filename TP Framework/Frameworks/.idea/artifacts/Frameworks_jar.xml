@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Frameworks:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Frameworks_jar</output-path>
+    <root id="archive" name="Frameworks.jar">
+      <element id="module-output" name="Frameworks" />
+    </root>
+  </artifact>
+</component>
